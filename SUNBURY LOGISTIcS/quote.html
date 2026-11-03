@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Request A Quote | Sunbury Logistics</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header id="header"></header>
+
+
+<section class="page-banner banner-air">
+
+    <div class="container">
+
+        <p class="section-tag">LET'S WORK TOGETHER</p>
+
+        <h1>Request A <span>Quote</span></h1>
+
+        <p>Tell us about your shipment requirements.</p>
+
+    </div>
+
+</section>
+
+
+<section class="section-padding quote-section">
+
+    <div class="container quote-grid">
+
+        <div class="quote-information">
+
+            <p class="section-tag">SHIPPING SOLUTIONS</p>
+
+            <h2 class="section-title">
+                Let's Move Your <span>Cargo.</span>
+            </h2>
+
+            <p class="paragraph">
+
+                Complete the quotation form with your
+                shipment details.
+
+                Our team will use the information to
+                understand your requirements and respond
+                with the appropriate next steps.
+
+            </p>
+
+
+            <div class="quote-benefit">
+
+                <i class="fas fa-plane"></i>
+                <span>Air Freight</span>
+
+            </div>
+
+            <div class="quote-benefit">
+
+                <i class="fas fa-ship"></i>
+                <span>Sea Freight</span>
+
+            </div>
+
+            <div class="quote-benefit">
+
+                <i class="fas fa-truck"></i>
+                <span>Road Transportation</span>
+
+            </div>
+
+            <div class="quote-benefit">
+
+                <i class="fas fa-file-contract"></i>
+                <span>Clearing & Forwarding</span>
+
+            </div>
+
+        </div>
+
+
+        <form id="quote-form" class="quote-form">
+
+            <h2>Shipping Enquiry Form</h2>
+
+            <label>Full Name</label>
+
+            <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+
+
+            <label>Email Address</label>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+
+            <label>Phone Number</label>
+
+            <input
+                type="tel"
+                name="phone"
+                placeholder="Enter your phone number"
+                required
+            >
+
+
+            <label>Type Of Service</label>
+
+            <select name="service" required>
+
+                <option value="">Choose a service</option>
+
+                <option>Air Freight</option>
+
+                <option>Sea Freight</option>
+
+                <option>Road Transportation</option>
+
+                <option>Clearing & Forwarding</option>
+
+            </select>
+
+
+            <label>Origin</label>
+
+            <input
+                type="text"
+                name="origin"
+                placeholder="Where is the cargo coming from?"
+                required
+            >
+
+
+            <label>Destination</label>
+
+            <input
+                type="text"
+                name="destination"
+                placeholder="Where is the cargo going?"
+                required
+            >
+
+
+            <label>Shipment Details</label>
+
+            <textarea
+                name="details"
+                rows="5"
+                placeholder="Describe your cargo, weight, quantity and requirements..."
+                required
+            ></textarea>
+
+
+            <button type="submit" class="btn btn-gold">
+
+                SUBMIT QUOTATION REQUEST
+
+                <i class="fas fa-paper-plane"></i>
+
+            </button>
+
+
+            <div id="quote-message"></div>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<footer id="footer"></footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
